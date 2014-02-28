@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sm.ldesolver"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sm.ldesolver.MainActivity"
+            android:label="@string/main_activity_title"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sm.ldesolver.SolveEquation"
+            android:label="@string/title_activity_solve_equation"
+            android:parentActivityName="com.sm.ldesolver.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sm.ldesolver.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sm.ldesolver.SolveWithSolution"
+            android:label="@string/title_activity_solve_with_solution"
+            android:parentActivityName="com.sm.ldesolver.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sm.ldesolver.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

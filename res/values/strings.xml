@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Linear Diophantine Equation</string>
+    <string name="main_activity_title">LDE Solver</string>
+    <string name="action_settings">Settings</string>
+    <string name="greeting">Enter the coefficients of your linear diophantine equation of the form A<i>x</i> + B<i>y</i> = C below:</string>
+    <string name="a_coeff">a coefficient</string>
+    <string name="b_coeff">b coefficient</string>
+    <string name="c_coeff">c</string>
+    <string name="submit_coeff">Solve</string>
+    <string name="title_activity_solve_equation">Solution</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="confirmation">Sorry</string>
+    <string name="resetButton">Reset</string>
+    <string name="gcd_introduction">The GCD of a and b is:</string>
+    <string name="solve_with_solution">Solve with Steps</string>
+    <string name="title_activity_solve_with_solution">Solution Steps</string>
+    <string name="gcdStepByStepTextView">The GCD of a and b is:</string>
+    <string name="showNextStepButton">Next Step</string>
+
+</resources>
